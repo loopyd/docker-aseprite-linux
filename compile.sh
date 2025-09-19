@@ -13,7 +13,9 @@ if [ ! -d "/dependencies/depot_tools" ]
 then
   echo "Cloning depot_tools"
   git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
+  cd depot_tools
   git checkout main
+  cd ..
 else
   cd depot_tools
   echo "Checking out latest depot_tools"
