@@ -191,7 +191,7 @@ trap '__cleanup "normal"' EXIT
 # Main() ########################
 [[ ! "${BASH_SOURCE[0]}" == "${0}" ]] && return 0
 __parse "$@"
-__log "info" "Using Aseprite version: ${AESCOMPILE_ASEPRITE_VERSION}"
+__log "info" "Building Aseprite version: ${AESCOMPILE_ASEPRITE_VERSION} (${AESCOMPILE_BUILD_TYPE})"
 __log "info" "Using Skia version: ${AESCOMPILE_SKIA_VERSION}"
 
 cd "${AESCOMPILE_DEPENDENCIES_DIR}"
