@@ -79,15 +79,6 @@ make build ARGS="-vvv --no-color"  # Clean debug output without colors
 make build ARGS="--help"
 ```
 
-### Advanced Features
-
-- **Real-time Output**: Command output appears immediately with proper stream separation
-- **OpenSSL Auto-detection**: Automatically finds and configures OpenSSL for compilation
-- **PATH Management**: Safe PATH modifications with automatic restoration on exit
-- **Error Recovery**: Comprehensive error trapping with detailed failure information
-- **ANSI Cleaning**: Removes terminal escape sequences for clean log output
-- **Smart Output Classification**: Automatically categorizes command output as info/warning/error
-
 ### Build Types
 
 - **RelWithDebInfo** (default): Optimized build with debug information included
